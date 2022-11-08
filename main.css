@@ -1,0 +1,426 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #1A1A1A;
+}
+
+body {
+    background: linear-gradient(90deg, #F3E7E9 0%, #E3EEFF 99%, #E3EEFF 100%);
+    font-family: 'Commissioner', sans-serif;
+    max-width: 992px;
+    margin: auto;
+}
+
+a {
+    margin: 16px;
+    padding-bottom: 1px;
+    color: #1A1A1A;
+    text-decoration: none;
+    border-bottom: 1px #1A1A1A33 solid;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+a:hover {
+    border-color: #1A1A1A;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 800;
+    margin: 16px 0px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+
+h4 { 
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-size: 18px;
+    margin-bottom: 48px;
+    display: flex;
+    gap: 32px;
+}
+
+main {
+    margin: 48px 56px;
+}
+
+div a {
+    margin: 0;
+}
+
+#aboutmehidden {
+    display: none;
+}
+
+.br {
+    display: none;
+}
+
+.lighttext {
+    color: rgba(128, 128, 128, 1);
+}
+
+.links {
+    margin-top: 32px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: center;
+}
+
+.whiteblock {
+    padding: 24px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex_row{
+    display: flex;
+}    
+
+.flexlo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}    
+
+.flexlo_item {
+    width: calc(50% - 4px);
+}
+
+.flexlo_item h3 {
+    margin-top: 8px;
+}
+
+.flexlo_item p {
+    margin-top: 16px;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.picframe {
+    padding: 20px 16px;
+    height: 496px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 4px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.pwithline {
+    color: #FFFFFF;
+    border-bottom: 1px rgba(255, 255, 255, 0.2) solid;
+    /* display: inline; */
+}
+
+.master_container {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin: 24px 32px;
+}
+
+.dotted_table {
+    display: flex;
+    border: 1px rgba(244, 244, 244, 1) solid;
+    border-radius: 4px;
+    padding: 4px 12px;
+    width: calc( ( 100% - 24px ) / 4 );
+}
+
+.makeorder {
+    color:#FFFFFF;
+    padding: 12px 86px;
+    background-color: #1A1A1A;
+    border-radius: 32px;
+    margin: 0;
+    transition: background-color 0.5s;
+}
+
+.makeorder:hover {
+    background-color: #404040;
+}
+
+.mainblock {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.upbutton {
+    margin: 0;
+    float: right;
+}
+
+.threeflex {
+    width: calc( (100% - 8px) / 3);
+}
+
+.pictop {
+    width: 100%;
+    height: 496px;
+    background-position: top;
+}
+
+.pic_item {
+    width: calc( 50% - 4px );
+    height: 248px;
+}
+
+.prices {
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+.menubutton {
+    height: 24px;
+    width: 24px;
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mobmenu {
+    display: none;
+    background: white;
+    width: 100%;
+    z-index: 10000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 32px 40px;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 992px) {
+
+    #aboutmeshown {
+        display: none;
+    }
+
+    #aboutmehidden {
+        display: block;
+    }
+
+    #aboutmehiddentop {
+        margin-bottom: 16px;
+    }
+
+    #imgaboutme {
+        margin: 0;
+        width: 80px;
+        height: 80px;
+        margin-right: 16px;
+    }
+
+    #whitecards {
+        flex-direction: column;
+    }
+
+    .whiteblock {
+        padding: 24px;
+    }
+
+    .threeflex {
+        width: 100%;
+    }
+
+    .master_container {
+        margin: 16px 40px 32px;
+    }
+
+    .flexlo {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .flexlo_item {
+        width: 100%;
+    }
+
+    .dotted_table {
+        width: calc( (100% - 8px) / 2);
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    body {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    main {
+        margin: 24px 16px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    h1 {
+        font-size: 28px;
+        line-height: 31.5px;
+    }
+
+    h2 {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    h3 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    
+    h4 {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    nav {
+        display: none;
+    }
+    
+    #aboutmehiddentop {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        gap: 16px;
+    }
+
+    #imgaboutme {
+        margin: 0;
+    }
+
+    #makeordertop {
+        order: 2;
+        margin: 8px 0 0;
+    }
+
+    .makeorder {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .master_container {
+        gap: 48px;
+    }
+    
+    .whiteblock {
+        padding: 16px;
+    }
+
+    .mainblock {
+        gap: 20px;
+    }
+
+    .upbutton {
+        float: none;
+        margin-top: 8px;
+        display: inline-block;
+    }
+
+    .links {
+        display: flex;
+    }
+
+    .br {
+        display: block;
+    }
+
+    .pictop {
+        height: 235px;
+    }
+
+    .pic_item {
+        height: 235px;
+        width: 100%;
+    }
+
+    .prices {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .dotted_table {
+        width: 100%;
+    }
+
+    .menubutton {
+        display: inline-block;
+        margin: 32px 40px 0;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .master_container {
+        margin: 16px 16px 24px;
+        gap: 28px;
+    }
+
+    .mobmenu {
+        margin: 24px 16px;
+    }
+
+    .menubutton {
+        margin: 16px 16px 0;
+    }
+
+}

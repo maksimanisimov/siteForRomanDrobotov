@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="main.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400;800&display=swap" rel="stylesheet">
+
+<body>
+
+    <a onclick="showMenu()" class="menubutton" id="menubutton" style="border-bottom: 0;"><img src="charm_menu-hamburger.svg" alt="Меню"></a>
+
+        <script>
+            function showMenu() {
+                document.getElementById('mobmenu').style.display = 'flex';
+            }
+        </script>
+
+    <div class="mobmenu" id="mobmenu">
+
+        <a href="romandrobotov.com" style="font-weight: 800;">Роман Дроботов</a>
+        <a href="#">Работы</a>
+        <a href="#projectcost">Стоимость</a>
+        <a href="#faq">Ответы на вопросы</a>
+
+    </div>
+
+    <main class="master_container">
+
+        <div>
+
+            <nav>
+
+                <a href="romandrobotov.com" style="margin-left: 0px; font-weight: 800;">Роман Дроботов</a>
+                <a href="#">Работы</a>
+                <a href="#projectcost">Стоимость</a>
+                <a href="#faq">Ответы на вопросы</a>
+
+            </nav>
+
+            <h1>Разработка лендингов, сайтов, интернет-магазинов</h1>
+            <p style="margin-top: 16px;">Сайты, которые удобны пользователям, решают задачи бизнеса и помогают компании заработать больше</p>
+
+            <div class="links">
+                <a href="https://t.me/drobotov" class="makeorder" id="makeordertop">Заказать сайт</a>
+                <a href="https://t.me/drobotov">Телеграм</a>
+                <a href="https://www.behance.net/drobotov">Беханс</a>
+                <a href="mailto:hello@romandrobotov.com">Почта</a>
+            </div>
+
+        </div>
+
+        <div class="whiteblock">
+
+            <div id="aboutmeshown">
+
+                <h2 style="margin-bottom: 24px; padding: 0;">Обо мне</h2>
+
+            <div class="flex_row">
+
+                <img src="me.png" alt="моя фотография" width="128px" height="128px" style="border-radius: 300px; margin-right:24px;">
+
+                <div>
+                <h3 style="margin-bottom: 8px;">Роман Дроботов</h3>
+                <p style="margin-bottom:16px;">UX/UI дизайнер с 7-летним опытом</p>
+                <p>Создаю аккуратные, понятные сайты с логичной структурой. Понимаю, как правильно расставить акценты и выгодно презентовать ваш бизнес, экспертность, товары, услуги.</p>
+                </div>
+
+            </div>
+
+            </div>
+
+            <div  id="aboutmehidden">
+
+                <div id="aboutmehiddentop" style="display: flex;">
+
+                    <img id="imgaboutme" src="me.png" alt="моя фотография" width="128px" height="128px" style="border-radius: 300px;">
+
+                    <div>
+                        <h3 style="margin-bottom: 8px; padding: 0;">Обо мне</h3>
+                        <p>UX/UI дизайнер с 7-летним опытом</p>
+                    </div>
+
+                </div>
+
+                <p>Создаю аккуратные, понятные сайты с логичной структурой. Понимаю, как правильно расставить акценты и выгодно презентовать ваш бизнес, экспертность, товары, услуги.</p>
+
+            </div>
+
+        </div>
+
+        <div class="mainblock">
+
+            <h2>Чем я буду вам полезен?</h2>
+ 
+            <div class="flex_row" id="whitecards" style="gap: 8px;">
+
+                <div class="whiteblock threeflex"><h4>UX/UI дизайн</h4>
+                    <p>Провожу UX исследования, анализирую бизнес, целевую аудиторию и конкурентов. На основе этого создаю прототип и дизайн-макет</p>
+                </div>
+
+                <div class="whiteblock threeflex"><h4>Верстка на тильде</h4>
+                    <p>Верстаю сайт на Тильде или передаю его верстальщику. Подключаю необходимые сервисы — формы, CRM, системы онлайн-оплаты</p>
+                </div>
+
+                <div class="whiteblock threeflex"><h4>Чем еще могу помочь</h4>
+                    <p>Проведу аудит сайта. Выявлю слабые места в структуре и интерфейсе. Предложу решения по увеличению конверсии сайта</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="photos">
+
+            <div class="picframe pictop" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 72.09%, #000000 100%), url(главная.png);">
+                <div>
+                    <p class="pwithline">Сайт агентства</p>
+                    <p style="color: #FFFFFF;">Кофактор</p>
+                </div>    
+            </div>
+
+            <div class="picframe pic_item" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 72.09%, #000000 100%), url(монстера.jpg);">
+                <div>
+                    <p class="pwithline">Заголовок</p>
+                </div>    
+            </div>
+        
+        <div class="picframe pic_item" style="background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 72.09%, #000000 100%), url(мебель.jpg);">
+            <div>
+                <p class="pwithline">Заголовок</p>
+            </div>    
+        </div>
+
+        </div>
+
+        <div class="mainblock">
+
+            <div>
+                <h2>Этапы создания сайта</h2>
+                <p style="margin-top: 16px">Разработка сайта происходит поэтапно. Этапы, присущие практически любому проекту:</p>
+            </div>
+
+            <div>
+
+                <div class="flexlo">
+
+                    <div class="flexlo_item whiteblock">
+                        <h4>1 этап</h4>
+                        <h3>Провожу детальное интервью</h3>
+                        <p>Созваниваемся любым удобным способом. По итогу составляем подробное техническое задание и вы передаете контент, который планируете разместить на сайте. Определяем цели и задачи сайта.</p>
+                    </div>
+
+                    <div class="flexlo_item whiteblock">
+                    <h4>2 этап</h4>
+                    <h3>Анализирую ваш бизнес</h3>
+                    <p>Провожу UX-исследования. Анализирую нишу, целевую аудиторию, конкурентов. Изучаю ваш бизнес. Делаю подборку референсов — интересных сайтов. Выбираем стилистику будущего сайта.</p>
+                    </div>
+
+                    <div class="flexlo_item whiteblock">
+                        <h4>3 этап</h4>
+                        <h3>Прорабатываю структуру сайта</h3>
+                        <p>Создаю карту сайта, продумываю логику. Работаю над прототипом в Фигме. Прототип — это сайт без цвета и фото. Обсуждаем, правим, утверждаем. Согласовываем собранный прототип.</p>
+                    </div>
+
+                    <div class="flexlo_item whiteblock">
+                        <h4>4 этап</h4>
+                        <h3>Работаю над дизайн-концепцией</h3>
+                        <p>Создаю в Фигме макет — 1–3 экрана сайта. Как правило, на выбор два варианта дизайна. После утверждения, доделываю все страницы. Утверждаем один дизайн сайта.</p>
+                    </div>
+
+                    <div class="flexlo_item whiteblock">
+                        <h4>5 этап</h4>
+                        <h3>Верстаю дизайн-макет на тильде</h3>
+                        <p>Готовый дизайн-концепт верстаю на Тильде. Создаю адаптив для всех расширений экранов. При необходимости делаю анимацию.</p>
+                    </div>
+                
+                    <div class="flexlo_item whiteblock">
+                        <h4>6 этап</h4>
+                        <h3>Настраиваю сайт</h3>
+                        <p>Подключаю формы обратной связи, оплаты, домен, SSL-сертификат, аналитику и передаю на ваш аккаунт готовый сайт.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="mainblock">
+
+            <div>
+                <h2 id="projectcost">Стоимость проекта</h2>
+                <p>Каждая задача уникальна, поэтому стоимость раcсчитывается индивидульно после обсуждения проекта</p>
+            </div>
+
+            <div>
+
+            <div class="whiteblock" style="gap: 24px;">
+
+                <h3>Тильда и веб</h3>
+
+                <div>
+                    <div class="prices" style="border-bottom: 1px #1A1A1A33 solid; padding-bottom: 20px;">
+                        <div style="display: flex; flex-direction: column; gap: 8px">
+                            <p>Одностраничный лендинг</p>
+                            <p class="lighttext">Посадочная страница до 7 уникальных экранов. Дизайн и контент страницы призывает пользователя совершить целевое действие — зарегистрироваться на мероприятие, оставить заявку, подписаться на рассылку и т. д.</p>
+                            <p class="lighttext">7–14 дней</p>
+                        </div>
+
+                        <div style="flex-shrink: 0;">
+                            <p>30 000–40 000 ₽</p>
+                        </div>
+
+                    </div>
+
+                    <div class="prices" style="border-bottom: 1px #1A1A1A33 solid; padding-bottom: 20px; margin-top: 20px;">
+                        <div style="display: flex; flex-direction: column; gap: 8px;">
+                            <p>Многостраничный сайт</p>
+                            <p class="lighttext">Сайт с более сложной структурой — до 5 уникальных страниц, на каждой из которых 6–7 экранов. Все страницы объединены меню или другими блоками со ссылками</p>
+                            <p class="lighttext">14–30 дней</p>
+                        </div>
+
+                        <div style="flex-shrink: 0;">
+                            <p>55 000–65 000 ₽</p>
+                        </div>
+
+                    </div>
+
+                    <div class="prices" style="margin-top: 20px;">
+
+                        <div style="display: flex; flex-direction: column; gap: 8px">
+                            <p>Интернет-магазин</p>
+                            <p class="lighttext">Многостраничный сайт для продажи товаров. Каталог товаров с удобным администрированием и сервис онлайн-платежей</p>
+                            <p class="lighttext">20–60 дней</p>
+                        </div>
+
+                        <div style="flex-shrink: 0;">
+                            <p>65 000 ₽</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="whiteblock" style="gap: 24px; margin-top: 8px;">
+
+                <h3>Дизайн без верстки</h3>
+    
+                    <div class="prices" style="border-bottom: 1px #1A1A1A33 solid; padding-bottom: 20px">
+                        <div style="display: flex; flex-direction: column; gap: 8px;">
+                            <p>Дизайн без верстки</p>
+                            <p class="lighttext">Разработаю уникальный дизайн в фигме, подготавливлю макет для верстки</p>
+                            <p class="lighttext">7–14 дней</p>
+                        </div>
+                        <div style="flex-shrink: 0;">
+                            <p>от 25 000 ₽</p>
+                        </div>
+                    </div>
+    
+                    <div class="prices">
+                        <div style="display: flex; flex-direction: column; gap: 8px">
+                            <p>Проектирование диджитал продукта</p>
+                            <p class="lighttext">UX исследования, проектирование сайта или приложения и отрисовка дизайн-макета. Подготовка необходимой документации для передачи разработчику</p>
+                            <p class="lighttext">7–40 дней</p>
+                        </div>
+                        <div style="flex-shrink: 0;">
+                            <p>от 30 000 ₽</p>
+                        </div>
+                    </div>
+    
+            </div>
+
+            </div>
+
+            <div>
+                <a href="https://t.me/drobotov" class="makeorder">Заказать сайт</a>
+            </div>
+
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 8px;">
+
+            <div>
+                <h2 id="faq">Ответы на частые вопросы</h2>
+                <p style="margin-top: 16px">Каждая задача уникальна, поэтому стоимость раcсчитывается индивидульно после обсуждения проекта</p>
+            </div>
+
+            <div class="whiteblock" style="padding: 24px;">
+
+                <div class="flex_row" style="border-bottom: 1px #1A1A1A33 solid; padding-bottom: 16px;">
+                    <h4>Смогу ли я самостоятельно управлять сайтом?</h4>
+                    <img src="открыто.svg" style="margin-left: auto; margin-right: 0;">
+                </div>
+
+                <div style="margin-top: 16px">
+                    <p>Да. Я предоставляю доступ к видео-инструкции, где показываю, как его редактировать и обновлять информацию: тексты, фото, карточки товаров</p>
+                </div>
+
+            </div>
+
+            <div class="whiteblock" style="padding: 24px;">
+
+                <div class="flex_row" style="border-bottom: 1px #1A1A1A33 solid; padding-bottom: 16px;">
+                    <h4>Что входит в стоимость?</h4>
+                    <img src="открыто.svg" style="margin-left: auto; margin-right: 0;">
+                </div>
+
+                <div style="margin-top: 16px; display: flex; flex-wrap: wrap; gap: 8px; ">
+
+                    <div class="dotted_table">
+                        <img src="circle1.svg" style="margin-right: 12px">
+                        <p>Исследования</p>
+                    </div>
+
+                    <div class="dotted_table">
+                        <img src="circle2.svg" style="margin-right: 12px">
+                        <p>Структура сайта</p>
+                    </div>
+
+                    <div class="dotted_table">
+                        <img src="circle3.svg" style="margin-right: 12px">
+                        <p>Прототип</p>
+                    </div>
+
+                    <div class="dotted_table">
+                        <img src="circle4.svg" style="margin-right: 12px">
+                        <p>Дизайн-макеты</p>
+                    </div>
+
+                    <div class="dotted_table">
+                        <img src="circle5.svg" style="margin-right: 12px">
+                        <p>Верстка сайта</p>
+                    </div>
+
+                    <div class="dotted_table">
+                        <img src="circle6.svg" style="margin-right: 12px">
+                        <p>Настройка сайта</p>
+                    </div>
+
+                    <div class="dotted_table">
+                        <img src="circle7.svg" style="margin-right: 12px">
+                        <p>Вычитка текстов</p>
+                    </div>
+
+                    <div class="dotted_table">
+                        <img src="circle8.svg" style="margin-right: 12px">
+                        <p>Поддержка</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="whiteblock" style="padding: 24px;">
+
+                <div class="flex_row" style="border-bottom: 1px #1A1A1A33 solid; padding-bottom: 16px;">
+                    <h4>Что не входит в стоимость?</h4>
+                    <img src="открыто.svg" style="margin-left: auto; margin-right: 0;">
+                </div>
+
+                <div style="margin-top: 16px; margin-left: 20px;">
+                    <div>
+                        <ul>
+                            <li>Стоимость регистрации домена</li>
+                            <li>Стоимость за услуги Тильды</li>
+                            <li>Покупка фотографий в фотобанках, платные шрифты — предварительно согласовывается и утверждается</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="whiteblock" style="padding: 24px;">
+
+                <div class="flex_row" style="border-bottom: 1px #1A1A1A33 solid; padding-bottom: 16px;">
+                    <h4>Какая система оплаты?</h4>
+                    <img src="открыто.svg" style="margin-left: auto; margin-right: 0;">
+                </div>
+
+                <div style="margin-top: 16px">
+                    <p>Для меня, как для исполнителя, предоплата — ответственность. Это значит, что обе стороны будут достаточно вовлечены в процесс</p>
+                </div>
+
+            </div>
+
+            <div class="whiteblock" style="padding: 24px;">
+
+                <div class="flex_row" style="border-bottom: 1px #1A1A1A33 solid; padding-bottom: 16px;">
+                    <h4>Рабочие дни и время, когда вы на связи?</h4>
+                    <img src="открыто.svg" style="margin-left: auto; margin-right: 0;">
+                </div>
+
+                <div style="margin-top: 16px">
+                    <p>Я не работаю в выходные дни — суббота, воскресенье. На связи с понедельника по пятницу с 10:00 до 19:00 по Москве. Отвечаю на сообщения в мессенджерах в течение часа, на почте — в течение 2 часов</p>
+                </div>
+
+            </div>
+
+    </div>
+
+    <div class="mainblock">
+
+        <h2>Давайте обсудим проект</h2>
+
+        <div>
+            <a href="https://t.me/drobotov" class="makeorder">Заказать сайт</a>
+        </div>
+
+    </div>
+
+    <footer>
+
+        <div class="flex_row" style="gap: 16px;">
+            <a href="https://t.me/drobotov" style="margin-left: 0;">Телеграм</a>
+            <a href="https://www.behance.net/drobotov">Беханс</a>
+            <a href="mailto:hello@romandrobotov.com">Почта</a>
+        </div>
+
+        <p style="margin-top: 16px;">© 2015...2022</p>
+        <a href="mailto:hello@romandrobotov.com" style="margin: 8px 0 0; display: inline-block;">hello@romandrobotov.com</a>
+        <br class="br">
+        <a href="#" class="upbutton">Наверх</a>
+
+    </footer>
+
+    </main>
+</body>
+</html>
